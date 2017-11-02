@@ -1,10 +1,10 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'emailvalidation/version'
+require 'emaillistvalidation/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "emailvalidation
+  spec.name          = "emaillistvalidation
   spec.version       = Emailvalidation::VERSION
   spec.authors       = ["Xavier Luijer"]
   spec.email         = ["xavier@emailvalidation.fr"]
