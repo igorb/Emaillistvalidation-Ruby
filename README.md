@@ -1,6 +1,6 @@
-Emailvalidation
+Email List Validation
 
-A ruby gem wrapper for the emailvalidation.fr API.
+A ruby gem wrapper for the emaillistvalidation.com API.
 
 Installation
 
@@ -12,16 +12,16 @@ And then execute:
 $ bundle
 Or install it yourself as:
 
-$ gem install emailvalidation
+$ gem install emaillistvalidation
 Usage
 
-To use the gem, first include emailvalidation
+To use the gem, first include emaillistvalidation
 
-require 'emailvalidation'
-Then create an instance of the Emailvalidation with api_key as the parameter
+require 'emaillistvalidation'
+Then create an instance of the emaillistvalidation with api_key as the parameter
 
 api_key = "<YOUR_API_KEY>"
-client = Emailvalidation.new(api_key)
+client = Emaillistvalidation.new(api_key)
 Now the API calls can be done via the client
 
 For OneByOne Verification
@@ -42,7 +42,7 @@ Example
 
 Create a client
 
-client = Emailvalidation.new("<api_key>")
+client = Emaillistvalidation.new("<api_key>")
 Verify Single Email
 
 client.one_by_one("ankur13019@iiitd.ac.in")
@@ -67,7 +67,7 @@ To install this gem onto your local machine, run bundle exec rake install. To re
 
 Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/Xavierluijer/Emailvalidation-Ruby. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the Contributor Covenant code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/Xavierluijer/Emaillistvalidation-Ruby. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the Contributor Covenant code of conduct.
 
 License
 
