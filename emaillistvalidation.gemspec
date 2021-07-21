@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'emaillistvalidation/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "emaillistvalidation
+  spec.name          = "emaillistvalidation"
   spec.version       = Emailvalidation::VERSION
   spec.authors       = ["Xavier Luijer"]
   spec.email         = ["xavier@emailvalidation.fr"]
